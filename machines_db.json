@@ -194,5 +194,19 @@
     "parity": "None",
     "stop": "One",
     "demo": null
+  },
+  {
+    "name": "Celtac Anpha MEK-6510K",
+    "type": "huyethoc",
+    "conn": "COM_PORT",
+    "proto": "custom",
+    "start": "STX",
+    "end": "ETX",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "\u0002MEK-6400  \n18   \n01024\nMANUAL      \nCBC         \n01\nBLOOD           \nMMM \n0019394   \nV01-06  ,        ,V04-02  ,               \n2019\n10\n24\n     \n10\n42\n16\n         0025  \n 8.2  \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n4.24  \n 9.9L \n31.7L \n74.8L \n23.3L \n31.2  \n11.8  \n 259  \n0.19  \n 7.2  \n17.5H \n35.2  \n 4.2  \n60.6  \n 2.9  \n 0.3  \n 5.0  \n      \n                                                                                                                                                                \n                                                                                       \n                                                                                                                                                                                                                                                                                                                                                                                                               \n\u0003",
+    "id": "custom-1774925521"
   }
 ]
