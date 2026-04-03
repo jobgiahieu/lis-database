@@ -670,5 +670,19 @@
     "stop": "One",
     "demo": "~JUN/19/2~JUN/19/2020 16:32:15     \nName:              Sex:   \nWard:              Age:   \nSD (10)      (03083)      \nBLD     +/-     5RBC/ul   \nBIL       -        neg    \nURO    norm    0.1mg/dl   \nKET       -        neg    \nPRO       +     30mg/dl   \nNIT       -        neg    \nGLU       -        neg    \npH                >8.5    \nS.G              1.005    \nLEU       +    25WBC/ul   \n                          \n(SN=12075860)             \nID(             )         \nOP(00000000)LOT(00000000)~",
     "id": "custom-1775180547"
+  },
+  {
+    "name": "Mission U120",
+    "type": "nuoctieu",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "STX",
+    "end": "ETX",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "\u0002 ID:12\n Date:07-12-2018 15:36   \n Operator: 01       \n No.200010               \n LEU      +-        15 Leu/uL\n NIT       -              neg\n URO       -       3.5 umol/L\n PRO       -              neg\n pH           6.0\n BLO       -              neg\n SG         1.030\n KET       -              neg\n BIL       -              neg\n*GLU      1+        15 mmol/L\n*ASC      3+       2.28mmol/L\n\u0003",
+    "id": "custom-1775180705"
   }
 ]
