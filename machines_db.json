@@ -740,5 +740,19 @@
     "stop": "One",
     "demo": "\u0005\u00021H|\\^&|||ACCP1|||||Host||P|1|20200706171924\n\u0003E5\n\u00022P|1||||^^||||||||||||||||||||\n\u00039B\n\u00023O|1|HONG2693||^^^FT3^^|R||||||||||||||||||||F\n\u00031A\n\u00024R|1|^^^FT3^^^^DOSE|7.99|pg/mL||||F\\R||||20200706145522\n\u00036F\n\u00025C|1|I|Waived^|I\n\u0003F9\n\u00026C|2|I|1: Waived^|I\n\u000386\n\u00027R|2|^^^FT3^^^^RLU|31365|||||F\\R||||20200706145522\n\u0003A7\n\u00020C|1|I|Waived^|I\n\u0003F4\n\u00021C|2|I|1: Waived^|I\n\u000381\n\u00022L|1|N\n\u000305\n\u0004",
     "id": "custom-1775181762"
+  },
+  {
+    "name": "AU400",
+    "type": "sinhhoa",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "STX",
+    "end": "ETX",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "\u0002D 001301 0018              82 DUC    E0     19  45.8GN47    21pN\u0003",
+    "id": "custom-1775181849"
   }
 ]
