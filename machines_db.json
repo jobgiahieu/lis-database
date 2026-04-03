@@ -894,5 +894,19 @@
     "stop": "One",
     "demo": "H|\\^&|||Sphera^V1.0|||||Host||P|1|20200714154104\n P|1||TRANG SK||||20200000|NU|||||||||||||||||||||||||\n  C|1|||\n  O|1|||Glu|False||||||||||Serum|||||||||||||||\n   R|1|Glu||mmol/L||||7.32||||20200714100444|\n  O|2|||GOT|False||||||||||Serum|||||||||||||||\n   R|1|GOT||U/l||||20.11||||20200714100501|\n  O|3|||GPT|False||||||||||Serum|||||||||||||||\n   R|1|GPT||U/l||||17.61||||20200714100520|\n  O|4|||a-CRE|False||||||||||Serum|||||||||||||||\n   R|1|a-CRE||umol/L||||52.66||||20200714100537|\n  O|5|||UreaUV|False||||||||||Serum|||||||||||||||\n   R|1|UreaUV||mmol/L||||3.55||||20200714100632|\nL||N",
     "id": "custom-1775188957"
+  },
+  {
+    "name": "Combi Scan 500",
+    "type": "nuoctieu",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "STX",
+    "end": "ETX",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "\u0002\n#0-005      07-06-23\nID=                 \nGLU             norm\nBIL              neg\n\nKET              neg\nSG             1.015\nBLO*       50 Ery/ul\nPH                 7\nPRO*        30 mg/dl\nUBG             norm\nNIT              neg\nLEU              neg\n\u0003",
+    "id": "custom-1775189278"
   }
 ]
