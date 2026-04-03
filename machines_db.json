@@ -824,5 +824,19 @@
     "stop": "One",
     "demo": "\u0005\u00021H|`^&||||||||||P|E 1394-97|20190723175116\nP|1|0|||BUI QUANG VINH|||M||||||||0|0\nO|1|5302||^^^GLU|||||||||||SERUM\nR|1|^^^GLU|4.21|mmol/l|^DEFAULT|N|N|F||||20190723083741\nC|1|I|Instrument Flag N\nL|1|N\n\u000324\n\u0004",
     "id": "custom-1775182404"
+  },
+  {
+    "name": "Kenza 250TX",
+    "type": "sinhhoa",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "ENQ",
+    "end": "ETX",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "\u0005\u0002         chien                         Man                             ALT0019.3000GLU0007.5600AST0090.5200ed\u0003\n\u0005\u0002         kiem                          Man                             CHO0004.8000TRI0002.7000GLU0005.8100a0\u0003\n\u0005\u0002         hue                           Women                           CHO0004.2000TRI0001.0800GLU0004.490003\u0003\n\u0005\u0002         phuong                        Women                           CHO0004.0000TRI0000.8200GLU0008.1400ed\u0003\n\u0005\u0002         theo                          Women                           GLU0004.440018\u0003\n\u0005\u0002         hai                           Man                             GLU0006.560015\u0003\n\u0005\u0002         mai                           Women                           CHO0004.7000TRI0002.3000GLU0007.8200f9\u0003\n\u0005\u0002         long                          Man                             ALT0066.7000AST0067.440019\u0003\n\u0005\u0002         khuyen                        Women                           GLU0004.9200bf\u0003\n\u0005\u0002         loan                          Women                           CHO0004.5000TRI0000.8800ae\u0003\n\u0005\u0002         dao                           Women                           CHO0003.0000TRI0000.700049\u0003\n\u0005\u0002         tich                          Man                             CHO0003.4000TRI0000.8700GLU0006.1700a3\u0003\n\u0005\u0002         bich dao                      Women                           GLU0004.9000d3\u0003\n\u0005\u0002         xuan                          Women                           CHO0003.9000TRI0002.8000bd\u0003\n\u0005\u0002         hieu                          Man                             CHO0003.3000CRE0097.5000PRO0064.0000UA 0316.7000ALT0074.2000TRI0000.9800GLU0005.5200AST0046.3400URE0004.9300AMY0022.3400CA 0001.7700GGT0010.0900HDL0001.4000LDL0001.290009\u0003\n\u0005\u0002         phu                           Man                             CHO0002.7000CRE0120.3000UA 0388.7000ALT0035.6000TRI0001.9100AST0098.7100URE0004.9600GGT0071.900068\u0003",
+    "id": "custom-1775182465"
   }
 ]
