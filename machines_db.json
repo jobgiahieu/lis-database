@@ -712,5 +712,19 @@
     "stop": "One",
     "demo": "\u0005\u00021H|\\^&|||10|||||20||1|20191107162802\n\u0003F5\n\u00022P|1||||THU 55|||||||||^Y\n\u0003BD\n\u00023O|1|^1^1^1|||R|20191107032534|||||||||1||||||||||O\n\u000324\n\u00024R|1|^^^ALT|97|U/L|0^40\\^|H||F||||20191107032534\n\u0003D2\n\u00025R|2|^^^AST|155|U/L|0^37\\^|H||F||||20191107032534\n\u00030C\n\u00026R|3|^^^CHOLES|4.5|mmol/l|3.9^5.2\\^|H||F||||20191107032534\n\u0003F5\n\u00027R|4|^^^TRI|3.74|mmol/l|0.46^1.88\\^|H||F||||20191107032534\n\u0003C5\n\u00020R|5|^^^GLU|10.2|mmol/L|3.9^6.4\\^|H||F||||20191107032534\n\u000328\n\u00021R|6|^^^CRE|77|umol/l|50^120\\^|H||F||||20191107032535\n\u0003B8\n\u00022R|7|^^^UREA|6.4|mmol/L|1.7^8.3\\^|H||F||||20191107032535\n\u000346\n\u00023R|8|^^^LDL-C|3.12|mmol/l|0^3.1\\^|H||F||||20191107032535\n\u000346\n\u00024L|1|N\n\u000307\n\u0004",
     "id": "custom-1775181517"
+  },
+  {
+    "name": "A25",
+    "type": "sinhhoa",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "ENQ",
+    "end": "EOT",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "12345\tCREATININE\tSER\t14.31\tumol/L\t25/10/2019 14:08:35\n12345\tUREA UV\tSER\t4.35\tmmol/L\t25/10/2019 14:08:35\n12345\tCHOLESTEROL\tSER\t5.31\tmmol/L\t25/10/2019 14:09:20\n12345\tURIC ACID\tSER\t106.59\tumol/L\t25/10/2019 14:09:35\n12345\tTRIGLYCERIDES\tSER\t1.06\tmmol/L\t25/10/2019 14:10:06\n12345\tBILIRUBIN DIRECT\tSER\t56.16\tumol/L\t25/10/2019 14:10:21\n12345\tALT\tSER\t3.29\tU/L\t25/10/2019 14:10:21\n12345\tBILIRUBIN TOTAL\tSER\t3.2\tumol/L\t25/10/2019 14:10:36\n12345\tPROTEIN TOTAL\tSER\t27.81\tg/L\t25/10/2019 14:10:51\n12345\tAST\tSER\t22.65\tU/L\t25/10/2019 14:10:51\n12345\tGLUCOSE\tSER\t4.31\tmmol/L\t25/10/2019 14:13:06\n12345\tALCOHOL\tSER\t-1.1\tmmol/L\t25/10/2019 14:39:06\ncap cuu\tGLUCOSE\tSER\t4.15\tmmol/L\t25/10/2019 14:12:36",
+    "id": "custom-1775181663"
   }
 ]
