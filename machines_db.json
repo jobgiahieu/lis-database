@@ -726,5 +726,19 @@
     "stop": "One",
     "demo": "12345\tCREATININE\tSER\t14.31\tumol/L\t25/10/2019 14:08:35\n12345\tUREA UV\tSER\t4.35\tmmol/L\t25/10/2019 14:08:35\n12345\tCHOLESTEROL\tSER\t5.31\tmmol/L\t25/10/2019 14:09:20\n12345\tURIC ACID\tSER\t106.59\tumol/L\t25/10/2019 14:09:35\n12345\tTRIGLYCERIDES\tSER\t1.06\tmmol/L\t25/10/2019 14:10:06\n12345\tBILIRUBIN DIRECT\tSER\t56.16\tumol/L\t25/10/2019 14:10:21\n12345\tALT\tSER\t3.29\tU/L\t25/10/2019 14:10:21\n12345\tBILIRUBIN TOTAL\tSER\t3.2\tumol/L\t25/10/2019 14:10:36\n12345\tPROTEIN TOTAL\tSER\t27.81\tg/L\t25/10/2019 14:10:51\n12345\tAST\tSER\t22.65\tU/L\t25/10/2019 14:10:51\n12345\tGLUCOSE\tSER\t4.31\tmmol/L\t25/10/2019 14:13:06\n12345\tALCOHOL\tSER\t-1.1\tmmol/L\t25/10/2019 14:39:06\ncap cuu\tGLUCOSE\tSER\t4.15\tmmol/L\t25/10/2019 14:12:36",
     "id": "custom-1775181663"
+  },
+  {
+    "name": "ADVIA Centaur CP",
+    "type": "sinhhoa",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "ENQ",
+    "end": "EOT",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "\u0005\u00021H|\\^&|||ACCP1|||||Host||P|1|20200706171924\n\u0003E5\n\u00022P|1||||^^||||||||||||||||||||\n\u00039B\n\u00023O|1|HONG2693||^^^FT3^^|R||||||||||||||||||||F\n\u00031A\n\u00024R|1|^^^FT3^^^^DOSE|7.99|pg/mL||||F\\R||||20200706145522\n\u00036F\n\u00025C|1|I|Waived^|I\n\u0003F9\n\u00026C|2|I|1: Waived^|I\n\u000386\n\u00027R|2|^^^FT3^^^^RLU|31365|||||F\\R||||20200706145522\n\u0003A7\n\u00020C|1|I|Waived^|I\n\u0003F4\n\u00021C|2|I|1: Waived^|I\n\u000381\n\u00022L|1|N\n\u000305\n\u0004",
+    "id": "custom-1775181762"
   }
 ]
