@@ -1,6 +1,7 @@
 {
-  "version": "4.0.0",
-  "message": "",
-  "download_url": "",
-  "blocked": false
+  "version":      "5.4.0.1",
+  "download_url": "https://drive.google.com/drive/folders/YOUR_FOLDER_ID",
+  "message":      "v5.4.0.1: Tìm kiếm Google Search, API key cá nhân, OCR PDF scan, ACK/Bidirectional, fix icon, giảm dung lượng EXE",
+  "required":     false,
+  "blocked":      false
 }
