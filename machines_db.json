@@ -684,5 +684,19 @@
     "stop": "One",
     "demo": "\u0002 ID:12\n Date:07-12-2018 15:36   \n Operator: 01       \n No.200010               \n LEU      +-        15 Leu/uL\n NIT       -              neg\n URO       -       3.5 umol/L\n PRO       -              neg\n pH           6.0\n BLO       -              neg\n SG         1.030\n KET       -              neg\n BIL       -              neg\n*GLU      1+        15 mmol/L\n*ASC      3+       2.28mmol/L\n\u0003",
     "id": "custom-1775180705"
+  },
+  {
+    "name": "Humalyte Plus3",
+    "type": "iondo",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "ENQ",
+    "end": "EOT",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "001  000000000000000000  032 4.22 139.2 121.1 0.00 0.00   0.0",
+    "id": "custom-1775181418"
   }
 ]
