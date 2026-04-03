@@ -782,5 +782,19 @@
     "stop": "One",
     "demo": "\u0005\u00021H|\\^&|671a22a0-69d5-4971-a608-b891e57f05a9||BA200|||||Host||P|LIS2A|20200714123323\nP|1\nO|1|ong||^^^ALT-GPT|R||||||||||SER|||||||20200714154005|||F\nR|1|^^^ALT-GPT|24.3373642|U/L|0 to 40|||F||admin||20200714154005|A200^832000585\nO|2|ong||^^^AST-GOT|R||||||||||SER|||||||20200714154023|||F\nR|1|^^^AST-GOT|27.620409|U/L|0 to 37|||F||admin||20200714154023|A200^832000585\nO|3|ong||^^^CHOLESTEROL|R||||||||||SER|||||||20200714153629|||F\nR|1|^^^CHOLESTEROL|3.81437325|mmol/L|3.5 to 5.19999981|||F||admin||20200714153629|A200^832000585\nO|4|ong||^^^GAMMA-GT|R||||||||||SER|||||||20200714153929|||F\nR|1|^^^GAMMA-GT|27.8099365|U/L|0 to 45|||F||admin||20200714153929|A200^832000585\nO|5|ong||^^^GLUCOSE|R||||||||||SER|||||||20200714154005|||F\nR|1|^^^GLUCOSE|9.36253262|mmol/L|3.9000001 to 6.4000001|||F||admin||20200714154005|A200^832000585\nO|6|ong||^^^TRIGLYCERIDES|R||||||||||SER|||||||20200714153647|||F\nR|1|^^^TRIGLYCERIDES|1.63829088|mmol/L|0.800000012 to 1.88|||F||admin||20200714153647|A200^832000585\nO|7|ong||^^^URIC ACID|R||||||||||SER|||||||20200714153705|||F\nR|1|^^^URIC ACID|416.876038|&Z03BC&mol/L|150 to 420|||F||admin||20200714153705|A200^832000585\nL|1|N\n\u00038E\n\u0004",
     "id": "custom-1775182044"
+  },
+  {
+    "name": "BioSystem A15",
+    "type": "sinhhoa",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "ENQ",
+    "end": "EOT",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "1thao\tGLUCOSE\tSER\t6.8608\tmmol/L\n1thao\tCHOLESTEROL\tSER\t4.6831\tmmol/L\n1thao\tALT\tSER\t36.573\tU/L\n1thao\tTRIGLYCERIDES\tSER\t1.2272\tmmol/L\n1thao\tAST\tSER\t54.4585\tU/L\n1thao\tUREA UV\tSER\t2.5115\tmmol/L\n1thao\tURIC ACID\tSER\t407.0969\tumol/L\n1thao\tPROTEIN TOTAL\tSER\t36.6498\tg/L\n1thao\tCREATININE\tSER\t63.5133\tumol/L\n1thao\tAMYLASE EPS\tSER\t122.0983\tU/L",
+    "id": "custom-1775182127"
   }
 ]
