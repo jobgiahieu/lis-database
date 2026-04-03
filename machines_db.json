@@ -754,5 +754,19 @@
     "stop": "One",
     "demo": "\u0002D 001301 0018              82 DUC    E0     19  45.8GN47    21pN\u0003",
     "id": "custom-1775181849"
+  },
+  {
+    "name": "AU680",
+    "type": "sinhhoa",
+    "conn": "COM_PORT",
+    "proto": "astm",
+    "start": "STX",
+    "end": "ETX",
+    "baud": "9600",
+    "data": "8",
+    "parity": "None",
+    "stop": "One",
+    "demo": "\u0002D 000502 0012                  18    E050    93r 051   156r 052   164Hr053  4.05r 057    21r 058  17.2r 059   0.9r 065  36.2r 066 103.8r 077    16r 078    20r \u0003",
+    "id": "custom-1775181960"
   }
 ]
