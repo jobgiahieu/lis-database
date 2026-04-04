@@ -1,7 +1,7 @@
 {
-  "version":      "5.4.0.1",
+  "version":      "5.4.0.2",
   "download_url": "https://drive.google.com/drive/folders/YOUR_FOLDER_ID",
-  "message":      "v5.4.0.1: Tìm kiếm Google Search, API key cá nhân, OCR PDF scan, ACK/Bidirectional, fix icon, giảm dung lượng EXE",
+  "message":      "v5.4.0.2: Fix lambda closure bug (NameError khi ghi Sheet), fix logic _doc_btn_text OCR, dọn import thừa",
   "required":     false,
   "blocked":      false
 }
