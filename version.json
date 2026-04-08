@@ -1,18 +1,7 @@
 {
-  "version":      "5.4.2",
+  "version": "5.4.2",
   "download_url": "https://drive.google.com/drive/folders/YOUR_FOLDER_ID",
-  "message":      "Các nâng cấp mới:
-- Tự phát hiện vị trí mã XN trong R| — thử cols[2] và cols[3], tìm đúng split("^")[n]
-- Unit conversion đầy đủ 12 loại: HGB, MCHC, HCT, BUN, Urea, Creatinine, Uric acid, Bilirubin (T/D/I), Glucose, Cholesterol, Triglycerides — chỉ thêm khi phát hiện đơn vị SI trong raw data
-- MEK/Celtac tự nhận dạng: dò số dòng STT thực tế + tự điều chỉnh offset nếu lệch
-- Custom generic thông minh: phân tích từng dòng, detect dòng số liệu bằng pattern, in giá trị mẫu vào comment để người dùng kiểm tra
-- HL7 đầy đủ: PID + OBR + OBX + NTE, lọc bỏ OBX loại FT/TX/ED
-- Bidirectional query template cho máy 2 chiều
-- Few-shot examples đầy đủ trong SYSTEM_PROMPT (Sysmex ASTM + MEK Custom)
-- Pre-analyzer tự phát hiện vị trí mã XN và đơn vị → đưa vào hint cho AI
-- Validation kiểm tra output trước khi trả về (return, dsketqua, ma_xn_may, cân bằng {})
-- Auto-retry lần 2 với thông báo lỗi cụ thể nếu lần 1 fail
-- Temperature = 0.05 cho Groq để output ổn định hơn",
-  "required":     false,
-  "blocked":      false
+  "message": "Các nâng cấp mới:\n- Tự phát hiện vị trí mã XN trong R| – thử cols[2] và cols[3], tìm đúng split(\"^\")[n]\n- Unit conversion đầy đủ 12 loại: HGB, MCHC, HCT, BUN, Urea, Creatinine, Uric acid, Bilirubin (T/D/I), Glucose, Cholesterol, Triglycerides – chỉ thêm khi phát hiện đơn vị SI trong raw data\n- MEK/Celtac tự nhận dạng: dò số dòng STT thực tế + tự điều chỉnh offset nếu lệch\n- Custom generic thông minh: phân tích từng dòng, detect dòng số liệu bằng pattern, in giá trị mẫu vào comment để người dùng kiểm tra\n- HL7 đầy đủ: PID + OBR + OBX + NTE, lọc bỏ OBX loại FT/TX/ED\n- Bidirectional query template cho máy 2 chiều\n- Few-shot examples đầy đủ trong SYSTEM_PROMPT (Sysmex ASTM + MEK Custom)\n- Pre-analyzer tự phát hiện vị trí mã XN và đơn vị -> đưa vào hint cho AI\n- Validation kiểm tra output trước khi trả về (return, dsketqua, ma_xn_may, cân bằng {})\n- Auto-retry lần 2 với thông báo lỗi cụ thể nếu lần 1 fail\n- Temperature = 0.05 cho Groq để output ổn định hơn",
+  "required": false,
+  "blocked": false
 }
